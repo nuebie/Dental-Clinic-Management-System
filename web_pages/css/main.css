@@ -1,0 +1,212 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+.main	{
+	margin: 20px 50px 50px 50px;
+	font-family: 'Poppins', sans-serif;
+	font-weight: 300;
+}
+
+h1	{
+	margin: 20px -8px;
+	color: white;
+	padding: 115px 50px 28px 50px;
+	background-color: #6137F4;
+	background-position: -50px;
+	font-family: 'Poppins', sans-serif;
+	font-weight: 600;
+}
+
+.btn1 {
+	margin: 20px 0px;
+	color: #404040;
+	background-color: white;
+	border: 1px solid #404040;
+	padding: 15px 32px;
+	text-align: center;
+	font-size: 17px;
+	font-family: inherit;
+	font-weight: 600;
+	text-decoration: none;
+	border-radius: 12px;
+	transition: 0.3s;
+}
+
+.btn1:hover	{
+	background-color: #376BF4;
+	border: 1px solid #376BF4;
+	color: white;
+	cursor: pointer;
+}
+
+.btncncl {
+	margin: 20px 0px;
+	color: #404040;
+	background-color: white;
+	border: 1px solid #404040;
+	padding: 15px 32px;
+	text-align: center;
+	font-size: 17px;
+	font-family: inherit;
+	font-weight: 600;
+	text-decoration: none;
+	border-radius: 12px;
+	transition: 0.3s;
+	float: right;
+	position: relative;
+	top: -125%;
+	left: 15%;
+}
+
+.btncncl:hover	{
+	background-color: #376BF4;
+	border: 1px solid #376BF4;
+	color: white;
+	cursor: pointer;
+}
+
+#box1 {
+	position: absolute;
+	display: block;
+	z-index: -2;
+	width: 380px;
+	height: 400px;
+	top: 200px;
+	left: 40%;
+	padding: 45px;
+	border-radius: 12px;
+	background-image: linear-gradient(90deg, rgba(232, 237, 255 ,1), rgba(232, 237, 255 ,0.90));
+}
+
+.box-overlay2 {
+	display: block;
+	z-index: -2;
+	width: 400px;
+	height: 100px;
+	padding: 20px 20px;
+	border-radius: 12px;
+	margin-bottom: 10px;
+	background-image: linear-gradient(90deg, rgba(232, 237, 255 ,1), rgba(232, 237, 255 ,0));
+}
+
+.box-overlay3 {
+	position: relative;
+	display: block;
+	float: left;
+	width: 270px;
+	height: 200px;
+	padding: 20px 40px;
+	border-radius: 12px;
+	margin-right: 30px;
+	margin-bottom: 30px;
+	background-color: #ffffff;
+    box-shadow: 0px 0px 9px 0px rgba(0,0,0,0.1);
+}
+
+select	{
+	font-family: inherit;
+	padding: 10px 10px;
+	border-radius: 12px;
+	border: none;
+}
+
+input.date	{
+	font-family: inherit;
+	padding: 9px 10px;
+	border-radius: 12px;
+	border: none;
+}
+
+input	{
+	font-family: inherit;
+	padding: 5px 10px;
+	border-radius: 12px;
+	border: solid gray 1px;
+	margin-bottom: 5px;
+}
+
+#background1	{
+	position: fixed;
+	z-index: -2;
+	display: block;
+	left: 0;
+	background-image: url("../images/clinic.jpg");
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	height: 100%;
+	width: 100%;
+}
+
+#background2	{
+	position: absolute;
+	z-index: -2;
+	display: block;
+	top: 250px;
+	right: 0;
+	background-image: url("../images/smile2.jpg");
+	background-repeat: no-repeat;
+	height: 100%;
+	width: 50%;
+}
+
+p.service	{
+	margin-right: 53%;
+	margin-top: 50px;
+}
+
+a.serv	{
+	color: #376BF4;
+	transition: 0.3s;
+}
+
+a.serv:hover	{
+	cursor: pointer;
+	filter: brightness(150%);
+}
+
+.servimg	{
+	height: 500px;
+	width: auto;
+}
+
+table	{
+	border-collapse: separate;
+	border-spacing: 0px 20px;
+}
+
+tr	{
+    background-color: #ffffff;
+	border-radius: 12px;
+    box-shadow: 0px 0px 9px 0px rgba(0,0,0,0.1);
+}
+
+th	{
+	padding: 20px 20px;
+	text-align: left;
+}
+
+td	{
+	padding: 20px 20px;
+	border-spacing: 20px 0px;
+}
+
+th.date, td.date	{
+	width: 8%;
+}
+
+th.teethn, td.teethn	{
+	width: 6%;
+}
+
+th.trtmnt, td.trtmnt	{
+	width: 12%;
+}
+
+th.desc, td.desc 	{
+	width: 67%;
+}
+
+.prcontainer	{
+	width: 85%;
+	margin: auto;
+}

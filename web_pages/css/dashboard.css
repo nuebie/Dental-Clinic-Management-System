@@ -1,0 +1,238 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+body	{
+	font-family: 'Poppins', sans-serif;
+}
+
+h1	{
+	position: fixed;
+	width: 100%;
+	z-index: -1;
+	margin: 20px -8px;
+	color: white;
+	padding: 115px 50px 28px 50px;
+	background-color: #376BF4;
+	background-position: -50px;
+	font-weight: 600;
+}
+
+h2	{
+	color: gray;
+}
+
+.sidebar	{
+	height: 100%;
+	width: 290px;
+	position: fixed;
+	z-index: -4;
+	top: 218.5px;
+	left: 0;
+	background-color: #E6E4EC;
+	overflow-x: hidden;
+	padding-top: 26px;
+}
+
+.sidebar a {
+	padding: 15px 8px 15px 50px;
+	text-decoration: none;
+	font-size: 18px;
+	color: #404040;
+	display: block;
+}
+
+.sidebar a:hover {
+	color: #376BF4;
+}
+
+.section	{
+	position: absolute;
+	left: 320px;
+	top: 240px;
+	z-index: -2;
+	width: 100%;
+}
+
+.sidebar a.active 	{
+	color: #376BF4;
+}
+
+table	{
+	border-collapse: separate;
+	border-spacing: 0px 20px;
+}
+
+tr	{
+    background-color: #ffffff;
+    box-shadow: 0px 0px 9px 0px rgba(0,0,0,0.1);
+}
+
+th	{
+	padding: 20px 20px;
+	text-align: left;
+}
+
+td	{
+	padding: 20px 20px;
+	border-spacing: 0px 0px 20px 0px;
+}
+
+.btn1	{
+	color: #404040;
+	background-color: white;
+	border: 1px solid #404040;
+	padding: 10px 0px;
+	width: 70px;
+	text-align: center;
+	font-size: 12px;
+	font-family: inherit;
+	font-weight: 600;
+	text-decoration: none;
+	border-radius: 12px;
+	transition: 0.4s;
+	margin-right: 5px;
+}
+
+.btnx	{
+	color: #D63030;
+	background-color: white;
+	border: 1px solid #D63030;
+	padding: 10px 0px;
+	width: 70px;
+	text-align: center;
+	font-size: 12px;
+	font-family: inherit;
+	font-weight: 600;
+	text-decoration: none;
+	border-radius: 12px;
+	transition: 0.4s;
+}
+
+.btn1:hover	{
+	background-color: #376BF4;
+	border: 1px solid #376BF4;
+	color: white;
+	cursor: pointer;
+}
+
+.btnx:hover	{
+	background-color: #D63030;
+	border: 1px solid #D63030;
+	color: white;
+	cursor: pointer;
+}
+	
+#add	{
+	color: #376BF4;
+	background-color: white;
+	border: 1px solid #376BF4;
+	padding: 15px 32px;
+	text-align: center;
+	font-size: 17px;
+	font-family: inherit;
+	font-weight: 600;
+	text-decoration: none;
+	border-radius: 12px;
+	transition: 0.4s;
+}
+
+#add:hover	{
+	background-color: #376BF4;
+	border: 1px solid #376BF4;
+	color: white;
+	cursor: pointer;
+}
+
+input.submit	{
+	color: #404040;
+	background-color: white;
+	border: 1px solid #404040;
+	padding: 10px 20px;
+	text-align: center;
+	font-size: 12px;
+	font-family: inherit;
+	font-weight: 600;
+	text-decoration: none;
+	border-radius: 12px;
+	transition: 0.4s;
+	margin-right: 5px;
+}
+
+input.submit:hover	{
+	background-color: #376BF4;
+	border: 1px solid #376BF4;
+	color: white;
+	cursor: pointer;
+}
+
+.addsection, .addnewtimediv	{
+	position: fixed;
+	z-index: 3;
+	background-image: linear-gradient(to right, rgba(236, 246, 255 ,1), rgba(236, 246, 255 ,0.9));
+	top: 215px;
+	left: 290px;
+	width: 100%;
+	height: 100%;
+	transition: 0.5s ease;
+	padding: 50px;
+	line-height: 1.8;
+}
+
+.updatesection, .updatetimediv	{
+	position: fixed;
+	display: none;
+	z-index: 3;
+	background-image: linear-gradient(to right, rgba(236, 246, 255 ,1), rgba(236, 246, 255 ,0.9));
+	top: 215px;
+	left: 290px;
+	width: 100%;
+	height: 100%;
+	transition: 0.5s ease;
+	padding: 50px;
+	line-height: 1.8;
+}
+
+a.cancel	{
+	color: #376BF4;
+	text-decoration: none;
+}
+
+a.cancel:hover	{
+	filter: brightness(150%);
+}
+
+input.text, textarea 	{
+	font-family: inherit;
+	padding: 8px 10px;
+	border-radius: 12px;
+	border: none;
+	margin: 4px 0px;
+}
+
+select	{
+	font-family: inherit;
+	padding: 8px 10px;
+	border-radius: 12px;
+	border: none;
+	margin-bottom: 5px;
+}
+
+input.date, input.time	{
+	font-family: inherit;
+	padding: 7px 10px;
+	border-radius: 12px;
+	border: none;
+	margin: 8px;
+}
+
+input#search	{
+	font-family: inherit;
+	padding: 7px 12px 7px 32px;
+	border-radius: 12px;
+	border: solid gray 1px;
+	margin: 8px;
+	width: 20%;
+	background-image: url('../images/search.png');
+	background-size: 20px;
+	background-position: 9px;
+	background-repeat: no-repeat;
+}
